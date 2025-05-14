@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #a95e28;
+}
+.hero {
+  height: 100vh;
+  background: url('../img/hero.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.hero-text {
+  font-size: 3rem;
+  color: #ffffff;
+  background-color: rgba(7, 54, 72, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+}
+.nav-left {
+  font-weight: bold;
+  color: #a95e28;
+  font-size: 1.2rem;
+}
+.logo {
+  height: 40px;
+}
+.nav-right a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #073648;
+  font-weight: bold;
+}
+.nav-right a:hover {
+  color: #016b94;
+}
+.section {
+  padding: 100px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0;
+}
+.section:nth-child(even) {
+  background-color: #ffffff;
+}
+h2 {
+  color: #016b94;
+}
+a {
+  color: #016b94;
+}
+a:hover {
+  color: #f6931e;
+}
+
+/* Founders Section */
+.founders {
+  margin-top: 2rem;
+}
+.founders h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #073648;
+}
+.founder-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.profile-left {
+  flex-shrink: 0;
+}
+.profile-right {
+  flex: 1;
+}
+.profile-pic {
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+}
+.founder-profile img[alt="Garrett Weaver"] {
+  transform: scale(1);
+  transform-origin: top left;
+}
