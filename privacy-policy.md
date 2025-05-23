@@ -61,7 +61,7 @@ Our services are intended for adult users. However, our content is suitable for 
 - **GDPR:** We follow GDPR principles but do not have a representative in the EU.
 
 ### 11. Changes to This Policy
-We may update this policy from time to time. The latest version will always be available at **https://storm-dynamics.com/privacy**. If changes materially affect your rights, we will notify you via email.
+We may update this policy from time to time. The latest version will always be available at **https://storm-dynamics.com/privacy-policy.md**. If changes materially affect your rights, we will notify you via email.
 
 ### 12. Contact Us
 If you have questions or concerns about this policy, contact:
